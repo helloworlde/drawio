@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-09-24T09:42:33.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.1" etag="Mm6g0QqSfq4PZPhJ4FkN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-24T09:54:01.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6SvnuFEDbk69xPlCCB_p" version="21.8.1" type="github">
   <diagram name="第 1 页" id="AMSQoRQHdhv7eraAHCDB">
-    <mxGraphModel>
+    <mxGraphModel dx="1967" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e-MmAyprSsfDecs-x-WM-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="380" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="180" width="380" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-4" value="WireGuard&lt;br&gt;IP: 10.0.1.1/32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-6" value="Rasp&lt;br&gt;192.168.31.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="420" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="e-MmAyprSsfDecs-x-WM-8" target="e-MmAyprSsfDecs-x-WM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-8" value="WireGuard&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;IP: 10.0.1.0/24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="480" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-9" value="HomeLab&lt;br&gt;192.168.2.5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="e-MmAyprSsfDecs-x-WM-10" target="e-MmAyprSsfDecs-x-WM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-10" value="Port:12345" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="520" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-14" value="HomeLab 局域网&lt;br&gt;192.168.2.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="e-MmAyprSsfDecs-x-WM-15" target="e-MmAyprSsfDecs-x-WM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="270" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-16" value="其他设备&lt;br&gt;192.168.2.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-21" value="Rasp 局域网&lt;br&gt;192.168.31.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="e-MmAyprSsfDecs-x-WM-22" target="e-MmAyprSsfDecs-x-WM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e-MmAyprSsfDecs-x-WM-23" value="其他设备&lt;br&gt;192.168.31.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
